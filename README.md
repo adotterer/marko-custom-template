@@ -23,4 +23,8 @@ Pages map to the directory structure. You can add additional pages by creating f
 
 ## Template
 
-This template has Jest, 
+This Marko template includes:
+
+- Jest
+- Prettier 
+- 

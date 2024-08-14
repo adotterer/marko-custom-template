@@ -2,13 +2,16 @@
   "name": "marko-test-setup",
   "description": "The default Marko starter app",
   "version": "1.0.0",
+  "type": "module",
   "dependencies": {
     "marko": "^5.33.5"
   },
   "devDependencies": {
+    "@eslint/js": "^9.9.0",
     "@marko/jest": "^6.0.0",
     "@marko/run": "^0.4.3",
     "@marko/testing-library": "^6.2.0",
+    "eslint": "^9.9.0",
     "husky": "^9.1.4",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
