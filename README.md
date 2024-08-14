@@ -1,4 +1,4 @@
-# Thanks for checking out Marko
+# Thanks for checking out my Marko template
 
 # Installation
 
@@ -23,4 +23,9 @@ Pages map to the directory structure. You can add additional pages by creating f
 
 ## Template
 
-This template has Jest, 
+Setup to include 
+
+- Jest, for testing
+- Prettier, for formatting JS files
+- marko-prettyprint, for formatting Marko files
+- lint-staged and husky for formatting files pre-commit
