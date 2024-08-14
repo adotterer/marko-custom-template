@@ -21,3 +21,6 @@ This project is powered by [@marko/run](https://github.com/marko-js/run).
 
 Pages map to the directory structure. You can add additional pages by creating files/directories under `src/routes` with `+page.marko` files.  Learn more in the [`@marko/run` docs](https://github.com/marko-js/run/#file-based-routing).
 
+## Template
+
+This template has Jest, 

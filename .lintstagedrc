@@ -1,6 +1,10 @@
 {
-  "*.+(js|json|ts|tsx)": [
+  "*.+(js|json)": [
     "prettier --write",
-    "git add"
+    "git add ."
+  ],
+  "*.+(marko)": [
+    "npm run prettyprint", 
+    "git add ."
   ]
 }
