@@ -8,10 +8,10 @@ class {
         window.addEventListener("mousemove", this.boundMove);
     }
     onDestroy() {
-        window.removeEventListener("mousemove", this.boundMove);
+                 window.removeEventListener("mousemove"     , this.boundMove);
     }
     move(e) {
-        this.state.x = e.clientX + "px";
+        this.state.x = e.clientX +        "px";
         this.state.y = e.clientY + "px";
     }
 }
