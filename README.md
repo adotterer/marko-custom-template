@@ -31,9 +31,9 @@ This repository provides a starter template for developing Marko applications. T
 ### Scripts
 
 1. Start development server:
-    ```bash
+```bash
     npm run dev
-   ```
+```
 
 2. Run tests:
   ```bash
@@ -45,5 +45,6 @@ This repository provides a starter template for developing Marko applications. T
     npm run format
    ```
 
-### Scripts
+### Pre-Commit Hook
+
 This template uses `lint-staged` and `husky` to run code formatting checks before committing. This ensures that all committed code adheres to the project's style guidelines.
