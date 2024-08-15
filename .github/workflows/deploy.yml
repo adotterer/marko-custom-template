@@ -1,0 +1,48 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: build
+          path: dist/ # Path to your build files
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: build
+
+      - name: Deploy to S3
+        uses: aws-actions/aws-s3-sync@v2.1.1
+        with:
+          bucket: marko-template # Set up this secret in your repo
+          region: us-west-1
+          source-dir: dist/ # Path to your build files
