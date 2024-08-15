@@ -21,6 +21,7 @@ This repository provides a starter template for developing Marko applications. T
    git clone https://github.com/your-username/marko-template.git
    cd marko-template
    ```
+
 2. Install dependencies:
    ```bash
     npm install
@@ -33,10 +34,12 @@ This repository provides a starter template for developing Marko applications. T
    ```bash
     npm run dev
    ```
+
 2. Run tests
   ```bash
     npm t
    ```
+
 3. Format code
   ```bash
     npm run format
