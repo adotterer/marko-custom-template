@@ -31,7 +31,7 @@ This repository provides a starter template for developing Marko applications. T
 ### Scripts
 
 1. Start development server:
-   ```bash
+    ```bash
     npm run dev
    ```
 
