@@ -6,13 +6,6 @@ describe("<app-button>", () => {
     await render(Button, {
       label: "Add to cart",
     });
-    expect(screen.getByText("Add to cart").innerHTML).toBe("Add to cart");
-  });
-
-  test("Expect 'label' text to be in the document 2", async () => {
-    await render(Button, {
-      label: "Add to cart",
-    });
     expect(screen.getByText("Add to cart")).toBeInTheDocument();
   });
 });
