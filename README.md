@@ -11,7 +11,7 @@ This repository provides a starter template for developing Marko applications. T
 - **marko-prettyprint**: Applied for formatting Marko files, keeping your templates consistently structured.
 - **Lint-Staged & Husky**: Set up to automatically format files before committing them to the repository, preventing messy code from being committed.
 - **Babel**: Added to ensure that Jest runs tests in the appropriate JavaScript environment, supporting modern JavaScript features.
-- **Webpack**:
+- **Webpack**: >
 
 ## Getting Started
 
