@@ -35,12 +35,12 @@ This repository provides a starter template for developing Marko applications. T
     npm run dev
    ```
 
-2. Run tests
+2. Run tests:
   ```bash
     npm t
    ```
 
-3. Format code
+3. Format code:
   ```bash
     npm run format
    ```
