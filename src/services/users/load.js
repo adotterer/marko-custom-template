@@ -17,7 +17,7 @@ export async function getUsers(options) {
     totalMatches: mockUsersData.length,
   };
 
-  await sleep(1000);
+  await sleep(500);
 
   return results;
 }
