@@ -3,13 +3,17 @@
   "description": "The default Marko starter app",
   "version": "1.0.0",
   "dependencies": {
+    "@babel/preset-env": "^7.25.3",
+    "babel-jest": "^29.7.0",
     "marko": "^5.33.5"
   },
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.24.7",
     "@marko/jest": "^6.0.0",
     "@marko/prettyprint": "^3.0.1",
     "@marko/run": "^0.4.3",
     "@marko/testing-library": "^6.2.0",
+    "@testing-library/jest-dom": "^6.4.8",
     "husky": "^9.1.4",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",

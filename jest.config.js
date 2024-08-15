@@ -3,7 +3,8 @@ module.exports = {
     {
       displayName: "browser",
       preset: "@marko/jest/preset/browser",
-      testMatch: ["**/__tests__/**/*.browser.js"],
+      testMatch: ["**/__tests__/**/*.js"],
     },
   ],
+  // setupFilesAfterEnv: ['jest-setup.js']
 };
