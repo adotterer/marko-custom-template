@@ -47,7 +47,6 @@
     "prettyprint": "npx marko-prettyprint .",
     "check-format": "npm run prettier -- --list-different",
     "format": "npm run prettier -- --write",
-    "validate": "npm run check-format && npm run build",
-    "prepare": "husky"
+    "validate": "npm run check-format && npm run build"
   }
 }
