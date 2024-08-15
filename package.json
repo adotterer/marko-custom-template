@@ -41,7 +41,7 @@
     "dev": "webpack serve",
     "build": "rm -rf ./dist && NODE_ENV=production webpack --progress",
     "preview": "marko-run preview",
-    "start": "node --enable-source-maps ./dist/index.mjs",
+    "start": "NODE_ENV=production node dist/main.js",
     "test": "jest",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
     "prettyprint": "npx marko-prettyprint .",
