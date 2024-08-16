@@ -2,6 +2,7 @@ import express from "express";
 import compressionMiddleware from "compression";
 import markoMiddleware from "@marko/express";
 import indexPage from "./pages/index";
+import testingPage from "./pages/index";
 import usersService from "./services/users";
 
 const port = parseInt(process.env.PORT || 3000, 10);

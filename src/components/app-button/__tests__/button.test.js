@@ -1,4 +1,4 @@
-import { render, screen, cleanup } from "@marko/testing-library";
+import { render, screen } from "@marko/testing-library";
 import Button from "./fixture.marko";
 
 describe("<app-button>", () => {

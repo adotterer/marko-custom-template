@@ -39,6 +39,7 @@
   "private": true,
   "scripts": {
     "dev": "webpack serve",
+    "dev:marko": "marko-run",
     "build": "rm -rf ./dist && NODE_ENV=production webpack --progress",
     "preview": "marko-run preview",
     "start": "NODE_ENV=production node dist/main.js",
