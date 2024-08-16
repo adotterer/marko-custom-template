@@ -20,7 +20,6 @@ class {
     handleClick() {
         const newChecked = !this.state.checked;
         let defaultPrevented = false;
-
         this.emit("toggle", {
             checked: newChecked,
             data: this.input.data,
@@ -28,7 +27,6 @@ class {
                 defaultPrevented = true;
             }
         });
-
         if (!defaultPrevented) {
             this.state.checked = newChecked;
         }

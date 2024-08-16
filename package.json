@@ -19,6 +19,7 @@
     "@marko/testing-library": "^6.2.0",
     "@marko/webpack": "^10.0.0",
     "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/user-event": "^14.5.2",
     "css-loader": "^7.1.2",
     "css-minimizer-webpack-plugin": "^7.0.0",
     "husky": "^9.1.4",
