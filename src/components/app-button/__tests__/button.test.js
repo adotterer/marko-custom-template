@@ -3,10 +3,10 @@ import Button from "./fixture.marko";
 
 describe("<app-button>", () => {
   test("Expect 'button' text to be in the document", async () => {
-    const { queryByText } = await render(Button, {
+    const { getByText } = await render(Button, {
       label: "Add to cart",
     });
-    const button = queryByText(/add to cart/i);
+    const button = getByText(/add to cart/i);
 
     expect(button.parentNode).toHaveAttribute("class", "app-button");
   });

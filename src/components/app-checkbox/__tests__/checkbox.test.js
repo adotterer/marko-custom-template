@@ -15,12 +15,12 @@ describe("<app-checkbox>", () => {
   });
   test("classList string should match snapshot", async () => {
     const user = userEvent.setup();
-    const { container, queryByText } = await render(Checkbox, {
+    const { container, getByText } = await render(Checkbox, {
       label: "Click here to subscribe",
     });
 
     const button = container.querySelector("button");
-    await user.click(queryByText(/click here to subscribe/i));
+    await user.click(getByText(/click here to subscribe/i));
     expect(button.classList.value).toMatchSnapshot();
   });
 });
