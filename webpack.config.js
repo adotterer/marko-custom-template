@@ -42,7 +42,7 @@ module.exports = [
     devServer: isProd
       ? undefined
       : {
-          hot: false,
+          hot: true,
           static: false,
           host: "0.0.0.0",
           allowedHosts: "all",
